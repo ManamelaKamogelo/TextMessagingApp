@@ -240,7 +240,7 @@ namespace TextMessagingApp
 
         private async void addFriendsBtn_Click(object sender, EventArgs e)
         {
-            string friendUsername = addFriendsTextBox.Text.Trim();
+            string friendUsername = addFriendsTextBox.Text.Trim();k
 
             if (!string.IsNullOrEmpty(friendUsername))
             {
